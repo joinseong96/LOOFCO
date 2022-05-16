@@ -1,0 +1,463 @@
+@media screen and (max-width:767px){
+  section{
+    max-width: 240px; margin: 0 auto;
+  }
+  .main ul{
+    padding: 0;
+  }
+  .main ul li{
+    list-style-type: none; box-shadow: gray 0 0 1px 0; border-radius: 25px; margin-bottom: 10px;
+  }
+  .main ul li a{
+    display: block; text-decoration: none; padding: 15px 30px;
+  }
+  .main ul li dl{
+    background-color: #fff;
+  }
+  .main ul li dl dt{
+    color: #00bebb; font-weight: bold; font-size: 15px; margin-bottom: 20px;
+  }
+  .main ul li dl dd{
+    margin: 0; font-size: 12px; color: #363636; font-weight: 300; letter-spacing: 0;
+  }
+  /* ? main section Area fin */
+
+  .loginPage{
+    padding-top: 200px;
+  }
+  .loginLogo h2{
+    margin: 0 auto; max-width: 80px;
+  }
+  .loginLogo h2 img{
+    width: 100%; margin-bottom: 15px;
+  }
+
+  .login > div{
+    margin-bottom: 50px;
+  } 
+  .login div div{
+    margin-bottom: 40px;
+  }
+  .login div h2{
+    display: none;
+  }
+  .login div p{
+    font-weight: 300; font-size: 12px; text-align: center; margin: 0 0 30px 0;
+  }
+  .login div p span{
+    color: #00bebb; font-weight: 400;
+  }
+  .login div div input:first-of-type,
+  .login div div input:nth-of-type(2){
+    display: block; padding: 10px 0 10px 20px; width: 100%; font-weight: 400; font-size: 12px; color: #b9b9b9; margin-bottom: 15px; border: 1px solid #6d6d6d; box-sizing: border-box;
+  }
+  .login div div input[type='checkbox']{
+    display: none;
+  }
+  .login div div label{
+    display: block; padding: 0 0 3px 20px; margin-bottom: 15px;
+    background: url('../images/checkbox_off.png') left center / 15px no-repeat;
+  }
+  .login div div input[type='checkbox']:checked + label{
+    background: url('../images/checkbox_on.png') left center / 15px no-repeat, url('../images/checkbox_off.png') left center / 15px no-repeat;
+  }
+  .login div div label{
+    display: inline-block; font-weight: 500; font-size: 12px; color: #2b2c2c; margin-left: 0px;
+  }
+  .login div a{
+    display: block; background: #00bebb; text-align: center; text-decoration: none; color: #fff; padding: 10px 0; font-weight: 700; font-size: 15px;
+  }
+  .loginGuide h2{
+    display: none;
+  }
+  .loginGuide div{
+    text-align: center;
+  }
+  .loginGuide div p{
+    font-size: 12px; margin: 0;
+  }
+  .loginGuide div p span{
+    color: #00bebb; font-weight: 700;
+  }
+  /* ? login section fin */
+
+  .mainContainer{
+    max-width: 240px; margin: 0 auto; padding: 20px 0; background: #fff; border-radius: 25px 25px 0 0 ;
+  }
+  .prev{
+    max-width: 240px; margin: 0 auto;
+  }
+  .viewTitle div,
+  .receive ol,
+  .information ul{
+    max-width: 230px; padding: 0 30px;
+  }
+  .viewTitle h2{
+    font-weight: 700; font-size: 15px; color: #00bebb;
+  }
+  .viewTitle div p,
+  .receive ol li,
+  .information ul li{
+    font-weight: 300; font-size: 12px; color: #363636;
+  }
+  .viewTitle div p{
+    margin: 30px 0;
+  }
+
+  .receive h2,
+  .etc h2,
+  .information h2,
+  .viewGuide h2{
+    display: none;
+  }
+  .receive ol li{
+    list-style-type: none; margin-bottom: 30px; letter-spacing: 1px;
+  }
+
+  .information ul{
+    margin-bottom: 30px; padding-left: 45px;
+  }
+  .information ul li{
+    font-size: 10px;
+  }
+
+  .etc div{
+    max-width: 240px; margin: 0 auto; padding-left: 10px;
+  }
+  .etc div p{
+    font-weight: 300; font-size: 10px; color: #838383;
+  }
+  /* ? etc fin */
+  
+  .prev{
+    background: #ededed; border-radius: 0 0 25px 25px; margin-bottom: 40px;
+  }
+  .prev a{
+    display: block; font-weight: 500; font-size: 12px; color: #8d8d8d; padding: 10px 0 10px 30px; width: 100%; box-sizing: border-box;  background: url('../images/prev.png') 20px center / 6px no-repeat;
+  }
+  .prev span{
+    padding-left: 5px;
+  }
+
+  .viewGuide div{
+    margin-bottom: 100px;
+  }
+  .viewGuide div p{
+    display: block; text-align: center; font-weight: 300; font-size: 12px; color: #5c5c5c;
+  }
+  .viewGuide div p span{
+    color: #00bebb;
+  }
+  /* ? view Area fin */
+}
+/* ? mobile */
+
+@media screen and (min-width:768px) and (max-width:1279px){
+  section{
+    max-width: 700px; margin: 0 auto;
+  }
+  .main ul{
+    padding: 0;
+  }
+  .main ul li{
+    list-style-type: none; box-shadow: gray 0 0 1px 0; border-radius: 25px; margin-bottom: 20px;
+  }
+  .main ul li a{
+    display: block; text-decoration: none; padding: 30px 0 30px 12%;
+  }
+  .main ul li dl{
+    background-color: #fff; max-width: 352px;
+  }
+  .main ul li dl dt{
+    color: #00bebb; font-weight: bold; font-size: 20px; margin-bottom: 30px;
+  }
+  .main ul li dl dd{
+    margin: 0; font-size: 15px; color: #363636; font-weight: 300; letter-spacing: 0;
+  }
+  /* ? main section Area fin */
+
+  .loginPage{
+    padding: 150px 0 60px;
+  }
+  .loginLogo h2{
+    max-width: 240px; margin: 0 auto;
+  }
+  .loginLogo h2 img{
+    width: 100%; margin-bottom: 50px;
+  }
+  /* ? logo fin */
+
+  .login > div{
+    margin-bottom: 120px;
+  } 
+  .login div div{
+    margin: 0 auto 50px; width: 70%;
+  }
+  .login div h2{
+    display: none;
+  }
+  .login div p,
+  .login div div input[type='checkbox'] + label span{
+    font-weight: 300; font-size: 17px; text-align: center; margin: 0 0 25px 0;
+  }
+  .login div p span{
+    color: #00bebb; font-weight: 400;
+  }
+  .login div div input:first-of-type,
+  .login div div input:nth-of-type(2){
+    display: block; padding: 20px 0 20px 15px; width: 100%; font-weight: 400; font-size: 14px; color: #b9b9b9; margin-bottom: 15px; border: 1px solid #6d6d6d; box-sizing: border-box;
+  }
+  .login div div input[type='checkbox']{
+    display: none;
+  }
+  .login div div label{
+    display: block; padding: 0 0 3px 30px;
+    background: url('../images/checkbox_off.png') left center / 15px no-repeat;
+  }
+  .login div div input[type='checkbox']:checked + label{
+    background: url('../images/checkbox_on.png') left center / 15px no-repeat, url('../images/checkbox_off.png') left center / 15px no-repeat;
+  }
+  .login div a{
+    display: block; background: #00bebb; text-align: center; text-decoration: none; color: #fff; padding: 20px 0; font-weight: 700; font-size: 20px; width: 70%; margin: 0 auto;
+  }
+  .loginGuide h2{
+    display: none;
+  }
+  .loginGuide div{
+    text-align: center;
+  }
+  .loginGuide div p{
+    font-size: 12px; margin: 0;
+  }
+  .loginGuide div p span{
+    color: #00bebb; font-weight: 700;
+  }
+  /* ? login section fin */
+
+  .mainContainer{
+    max-width: 700px; margin: 0 auto; padding: 25px 0; background: #fff; border-radius: 25px 25px 0 0 ;
+  }
+  .prev{
+    max-width: 700px; margin: 0 auto;
+  }
+  .viewTitle div,
+  .receive ol,
+  .information ul{
+    max-width: 352px; padding-left: 12%;
+  }
+  .viewTitle h2{
+    font-weight: 700; font-size: 20px; color: #00bebb;
+  }
+  .viewTitle div p,
+  .receive ol li,
+  .information ul li{
+    font-weight: 300; font-size: 15px; color: #363636; letter-spacing: 0;
+  }
+  .viewTitle div p{
+    margin: 30px 0;
+  }
+
+  .receive h2,
+  .etc h2,
+  .information h2,
+  .viewGuide h2{
+    display: none;
+  }
+  .receive ol li{
+    list-style-type: none; margin-bottom: 30px;
+  }
+
+  .information ul{
+    margin-bottom: 30px; padding-left: 100px;
+  }
+  
+  .etc div{
+    max-width: 700px; margin: 0 auto; padding-left: 80px;
+  }
+  .etc div p{
+    font-weight: 300; font-size: 15px; color: #838383;
+  }
+  /* ? etc fin */
+  
+  .prev{
+    background: #ededed; border-radius: 0 0 25px 25px; margin-bottom: 40px;
+  }
+  .prev a{
+    display: block; font-weight: 500; font-size: 15px; color: #8d8d8d; padding: 25px 0 25px 70px; width: 100%; box-sizing: border-box;  background: url('../images/prev.png') 85px center / 8px no-repeat;
+  }
+  .prev span{
+    padding-left: 40px;
+  }
+  /* ? prev Area fin */
+
+  .viewGuide div{
+    margin-bottom: 100px;
+  }
+  .viewGuide div p{
+    display: block; text-align: center; font-weight: 300; font-size: 15px; color: #5c5c5c;
+  }
+  .viewGuide div p span{
+    color: #00bebb;
+  }
+  /* ? view Area fin */
+}
+/* ? tablet */
+
+@media screen and (min-width:1280px){
+    section{
+      max-width: 836px; margin: 0 auto;
+    }
+    .main ul{
+      padding: 0;
+    }
+    .main ul li{
+      list-style-type: none; box-shadow: gray 0 0 1px 0; border-radius: 25px; margin-bottom: 40px;
+    }
+    .main ul li a{
+      display: block; text-decoration: none; padding: 50px 70px;
+    }
+    .main ul li dl{
+      background-color: #fff; max-width: 560px;
+    }
+    .main ul li dl dt{
+      color: #00bebb; font-weight: bold; font-size: 28px; margin-bottom: 35px;
+    }
+    .main ul li dl dd{
+      margin: 0; font-size: 26px; color: #363636; font-weight: 300; letter-spacing: -0.5px;
+    }
+    /* ? main section Area fin */
+
+    .loginPage{
+      padding: 100px 0 120px;
+    }
+    .loginLogo h2{
+      max-width: 400px; margin: 0 auto;
+    }
+    .loginLogo h2 img{
+      width: 100%; margin-bottom: 130px;
+    }
+
+    .login > div{
+      margin-bottom: 245px;
+    } 
+    .login div div{
+      margin-bottom: 100px;
+    }
+    .login div h2{
+      display: none;
+    }
+    .login div p{
+      font-weight: 300; font-size: 34px; text-align: center; margin: 0 0 50px 0;
+    }
+    .login div p span{
+      color: #00bebb; font-weight: 400;
+    }
+    .login div div input:first-of-type,
+    .login div div input:nth-of-type(2){
+      display: block; padding: 35px 0 35px 30px; width: 100%; font-weight: 400; font-size: 22px; color: #b9b9b9; margin-bottom: 30px; border: 1px solid #6d6d6d;
+    }
+    .login div div input[type='checkbox']{
+      display: none;
+    }
+    .login div div label{
+      display: block; padding: 0 0 3px 30px; margin-bottom: 15px;
+      background: url('../images/checkbox_off.png') left center / 15px no-repeat;
+    }
+    .login div div input[type='checkbox']:checked + label{
+      background: url('../images/checkbox_on.png') left center / 15px no-repeat, url('../images/checkbox_off.png') left center / 15px no-repeat;
+    }
+    .login div a{
+      display: block; background: #00bebb; text-align: center; text-decoration: none; color: #fff; padding: 40px 0; font-weight: 700; font-size: 30px;
+    }
+    .loginGuide h2{
+      display: none;
+    }
+    .loginGuide div{
+      text-align: center;
+    }
+    .loginGuide div p{
+      font-size: 20px; margin: 0;
+    }
+    .loginGuide div p span{
+      color: #00bebb; font-weight: 700;
+    }
+    /* ? login section fin */
+
+    .mainContainer{
+      max-width: 836px; margin: 0 auto; padding: 50px 0; background: #fff; border-radius: 25px 25px 0 0 ;
+    }
+    .prev{
+      max-width: 836px; margin: 0 auto;
+    }
+    .viewTitle div,
+    .receive ol,
+    .information ul{
+      max-width: 547px; padding-left: 70px;
+    }
+    .viewTitle h2{
+      font-weight: 700; font-size: 28px; color: #00bebb;
+    }
+    .viewTitle div p,
+    .receive ol li,
+    .information ul li{
+      font-weight: 300; font-size: 26px; color: #363636; letter-spacing: -2px;
+    }
+    .viewTitle div p{
+      margin: 60px 0;
+    }
+
+    .receive h2,
+    .etc h2,
+    .information h2,
+    .viewGuide h2{
+      display: none;
+    }
+    .receive ol li{
+      list-style-type: none; margin-bottom: 60px;
+    }
+    
+    .information ul{
+      margin-bottom: 65px; padding-left: 100px;
+    }
+    
+    .etc div{
+      max-width: 836px; margin: 0 auto; padding-left: 70px;
+    }
+    .etc div p{
+      font-weight: 300; font-size: 26px; color: #838383;
+    }
+    /* ? etc fin */
+    
+    .prev{
+      background: #ededed; border-radius: 0 0 25px 25px; margin-bottom: 80px;
+    }
+    .prev a{
+      display: block; font-weight: 500; font-size: 22px; color: #8d8d8d; padding: 25px 0 25px 70px; width: 100%; box-sizing: border-box;  background: url('../images/prev.png') 70px center / 15px no-repeat;
+    }
+    .prev span{
+      padding-left: 30px;
+    }
+
+    .viewGuide div{
+      margin-bottom: 100px;
+    }
+    .viewGuide div p{
+      display: block; text-align: center; font-weight: 300; font-size: 22px; color: #5c5c5c;
+    }
+    .viewGuide div p span{
+      color: #00bebb;
+    }
+    /* ? view Area fin */
+
+    .buyMainContainer{
+      max-width: 836px; margin: 0 auto;
+    }
+    .buyMainContainer .project{
+      outline: 1px solid red;
+    }
+    .current_situation table tr th,
+    .current_situation table tr td{
+      border: 1px solid red;
+    }
+}
+/* ? desktop */
